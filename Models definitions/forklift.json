@@ -1,0 +1,24 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Forklift;1",
+    "@type": "Interface",
+    "displayName": "Forklift",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "status",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "batteryLevel",
+        "schema": "double"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "location",
+        "schema": "string"
+      }
+    ]
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Machine;1",
+    "@type": "Interface",
+    "displayName": "Machine",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "model",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "runningHours",
+        "schema": "integer"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "temperature",
+        "schema": "double"
+      }
+    ]
+  }
+  

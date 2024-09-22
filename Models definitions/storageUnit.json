@@ -1,0 +1,24 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:StorageUnit;1",
+    "@type": "Interface",
+    "displayName": "Storage Unit",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "capacity",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "contents",
+        "schema": "string"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "inventoryLevel",
+        "schema": "double"
+      }
+    ]
+  }
+  

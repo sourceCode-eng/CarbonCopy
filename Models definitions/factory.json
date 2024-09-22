@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Factory;1",
+    "@type": "Interface",
+    "displayName": "Factory",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "name",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "location",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "totalArea",
+        "schema": "double"
+      },
+      {
+        "@type": "Relationship",
+        "name": "hasFloors",
+        "target": "dtmi:example:Floor;1"
+      }
+    ]
+  }
+  

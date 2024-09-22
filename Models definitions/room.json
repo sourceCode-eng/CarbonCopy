@@ -1,0 +1,34 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Room;1",
+    "@type": "Interface",
+    "displayName": "Room",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "roomName",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "roomType",
+        "schema": "string"
+      },
+      {
+        "@type": "Relationship",
+        "name": "containsForklifts",
+        "target": "dtmi:example:Forklift;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "containsMachines",
+        "target": "dtmi:example:Machine;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "containsStorageUnits",
+        "target": "dtmi:example:StorageUnit;1"
+      }
+    ]
+  }
+  
